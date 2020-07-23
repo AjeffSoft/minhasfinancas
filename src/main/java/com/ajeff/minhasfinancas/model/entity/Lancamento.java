@@ -23,12 +23,14 @@ import com.ajeff.minhasfinancas.model.enums.TipoLancamento;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "lancamento", schema= "financas")
 @Data
 @AllArgsConstructor
 @Builder
+@NoArgsConstructor
 public class Lancamento {
 	
 	@Id
